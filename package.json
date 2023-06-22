@@ -12,6 +12,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cypress": "cypress open",
+    "cypress:all": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^12.15.0",
+    "webpack": "^3.8.1"
   }
 }
